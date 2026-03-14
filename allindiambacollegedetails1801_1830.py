@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/institute-for-innovative-and-integrated-management-studies-mumbai-239240",
-  "https://www.shiksha.com/college/veeranari-chakali-ilama-womens-university-hyderabad-244296",
-  "https://www.shiksha.com/college/karavali-group-of-colleges-mangalore-22136",
-  "https://www.shiksha.com/college/smot-school-of-business-smot-perungudi-chennai-27142",
-  "https://www.shiksha.com/college/sun-institute-of-management-studies-udaipur-28174",
-  "https://www.shiksha.com/college/multani-mal-modi-college-patiala-31569",
-  "https://www.shiksha.com/college/asra-group-of-institutions-tehsil-bhawanigarh-65145",
-  "https://www.shiksha.com/college/technology-education-and-research-integrated-institution-kurukshetra-66837",
-  "https://www.shiksha.com/college/ashoka-business-school-nalgonda-70759",
-  "https://www.shiksha.com/college/lord-shiva-college-of-management-sirsa-73025",
-  "https://www.shiksha.com/college/st-mary-s-college-of-commerce-and-management-studies-thuruthiply-ernakulum-76901",
-  "https://www.shiksha.com/college/ideal-institute-of-management-kolhapur-77605",
-  "https://www.shiksha.com/college/university-of-kashmir-north-campus-baramulla-104905",
-  "https://www.shiksha.com/college/abc-college-of-education-patna-125585",
-  "https://www.shiksha.com/college/sophitorium-management-college-khurda-148005",
-  "https://www.shiksha.com/college/r-v-s-college-of-engineering-and-technology-dindigul-148455",
-  "https://www.shiksha.com/college/college-of-agriculture-business-management-shrinagar-latur-153915",
-  "https://www.shiksha.com/college/priyatam-institute-of-technology-and-science-indore-154121",
-  "https://www.shiksha.com/college/sai-nath-college-of-management-gwalior-157001",
-  "https://www.shiksha.com/college/devkinandan-college-of-management-gwalior-157085",
+  "https://www.shiksha.com/college/krishnaveni-degree-college-narasaraopet-188691",
+  "https://www.shiksha.com/college/institute-of-productivity-and-management-ipm-kanpur-28813",
+  "https://www.shiksha.com/college/tmi-academy-of-travel-tourism-and-aviation-studies-chandigarh-37659",
+  "https://www.shiksha.com/college/centre-for-management-technology-greater-noida-37783",
+  "https://www.shiksha.com/college/jei-mathaajee-college-of-engineering-jei-mce-kanchipuram-43061",
+  "https://www.shiksha.com/college/aurora-s-research-and-technological-institute-warangal-48462",
+  "https://www.shiksha.com/college/technocrats-institute-of-technology-and-science-bhopal-49328",
+  "https://www.shiksha.com/college/shri-ram-murti-smarak-college-of-engineering-and-technology-lucknow-49442",
+  "https://www.shiksha.com/college/kailash-narayan-patidar-college-of-science-and-technology-bhopal-60345",
+  "https://www.shiksha.com/college/krishnaveni-engineering-college-for-women-narasaraopet-60612",
+  "https://www.shiksha.com/college/mandava-institute-of-engineering-and-technology-krishna-60682",
+  "https://www.shiksha.com/college/king-college-of-technology-namakkal-61597",
+  "https://www.shiksha.com/college/ranganathan-engineering-college-coimbatore-61609",
+  "https://www.shiksha.com/college/cms-college-of-engineering-namakkal-62053",
+  "https://www.shiksha.com/college/sairam-institute-of-management-east-godavari-62399",
+  "https://www.shiksha.com/college/s-a-v-acharya-institute-of-management-studies-karjat-mumbai-64175",
+  "https://www.shiksha.com/college/sir-atma-ram-institute-of-management-and-technology-jabalpur-210171",
+  "https://www.shiksha.com/college/impact-college-powered-by-sunstone-patna-231592",
+  "https://www.shiksha.com/college/doon-valley-group-of-institutes-karnal-19924",
+  "https://www.shiksha.com/college/gd-goenka-world-institute-gurgaon-26803",
 ]
 
 
@@ -9242,7 +9242,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =2391
+    c_count =2211
 
     try:
         for base_url in BASE_URL:
